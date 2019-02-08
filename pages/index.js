@@ -28,7 +28,7 @@ function Index(props) {
 function Body(props) {
   const postList = filterPosts(props.summaryJson)
   return (
-    <div className="center mw6 pa3 pa4-ns">
+    <div className="center mw8 pa3 pa4-ns">
       {postList.map((article, i) => {
         const href = makeUrl(article)
         const date = formatDate(article.date)

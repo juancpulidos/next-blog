@@ -46,7 +46,7 @@ Page.defaultProps = {
   stylesheets: [
     'https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css'
   ],
-  backgroundClass: 'bg-dark-gray',
+  backgroundClass: 'bg-navy',
 }
 
 export default Page
